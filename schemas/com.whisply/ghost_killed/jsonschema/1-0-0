@@ -1,15 +1,15 @@
 {
    "$schema":"http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
-   "description":"Schema for a shot fired event",
+   "description":"Schema for a killed ghost event",
    "self":{
       "vendor":"com.whisply",
-      "name":"shot_fired",
+      "name":"ghost_killed",
       "format":"jsonschema",
       "version":"1-0-0"
    },
    "type":"object",
    "properties":{
-      "bullet_fired_count":{
+      "ghost_kill_count":{
          "type":"integer"
       }
    },

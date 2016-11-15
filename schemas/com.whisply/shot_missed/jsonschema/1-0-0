@@ -1,15 +1,15 @@
 {
    "$schema":"http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
-   "description":"Schema for a shot fired event",
+   "description":"Schema for a shot missed event",
    "self":{
       "vendor":"com.whisply",
-      "name":"shot_fired",
+      "name":"shot_missed",
       "format":"jsonschema",
       "version":"1-0-0"
    },
    "type":"object",
    "properties":{
-      "bullet_fired_count":{
+      "missed_bullet_count":{
          "type":"integer"
       }
    },
