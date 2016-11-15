@@ -9,6 +9,10 @@
    },
    "type":"object",
    "properties":{
+      "level_success":{
+         "type":"string",
+         "maxlength":60
+      },
       "bonus_equipped":{
          "type":"string",
          "maxlength":60
