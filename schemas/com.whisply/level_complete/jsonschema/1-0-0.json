@@ -1,0 +1,47 @@
+{
+   "$schema":"#",
+   "description":"Schema for a level complete event",
+   "self":{
+      "vendor":"com.whisply",
+      "name":"level_complete",
+      "format":"jsonschema",
+      "version":"1-0-0"
+   },
+   "type":"object",
+   "properties":{
+      "bonus_equipped":{
+         "type":"string",
+         "maxlength":60
+      },
+      "rank":{
+         "type":"string",
+         "maxlength":60
+      },
+      "items_found":{
+         "type":"string",
+         "maxlength":60
+      },
+      "targets_killed":{
+         "type":"string",
+         "maxlength":60
+      },
+      "bullets_fired":{
+         "type":"string",
+         "maxlength":60
+      },
+      "max_combo":{
+         "type":"string",
+         "maxlength":60
+      },
+      "exp_earned":{
+         "type":"string",
+         "maxlength":60
+      },
+      "final_score":{
+         "type":"string",
+         "maxlength":60
+      }
+   },
+   "minProperties":1,
+   "additionalProperties":false
+}

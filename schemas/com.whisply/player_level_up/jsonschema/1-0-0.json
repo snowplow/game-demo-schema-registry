@@ -1,0 +1,15 @@
+{
+   "$schema":"#",
+   "description":"Schema for a player level up event",
+   "self":{
+      "vendor":"com.whisply",
+      "name":"player_level_up",
+      "format":"jsonschema",
+      "version":"1-0-0"
+   },
+   "type":"object",
+   "properties":{
+
+   },
+   "additionalProperties":false
+}

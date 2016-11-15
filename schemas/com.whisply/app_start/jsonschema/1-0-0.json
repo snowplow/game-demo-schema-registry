@@ -1,0 +1,15 @@
+{
+   "$schema":"#",
+   "description":"Schema for an app start event",
+   "self":{
+      "vendor":"com.whisply",
+      "name":"app_start",
+      "format":"jsonschema",
+      "version":"1-0-0"
+   },
+   "type":"object",
+   "properties":{
+
+   },
+   "additionalProperties":false
+}

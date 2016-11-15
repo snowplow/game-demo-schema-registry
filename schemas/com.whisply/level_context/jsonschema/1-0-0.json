@@ -1,0 +1,31 @@
+{
+   "$schema":"#",
+   "description":"Schema for a level context",
+   "self":{
+      "vendor":"com.whisply",
+      "name":"user_context",
+      "format":"jsonschema",
+      "version":"1-0-0"
+   },
+   "type":"object",
+   "properties":{
+      "name":{
+         "type":"string",
+         "maxlength":60
+      },
+      "target_points":{
+         "type":"string",
+         "maxlength":60
+      },
+      "target_kills":{
+         "type":"string",
+         "maxlength":60
+      },
+      "target_Score":{
+         "type":"string",
+         "maxlength":60
+      }
+   },
+   "minProperties":1,
+   "additionalProperties":false
+}

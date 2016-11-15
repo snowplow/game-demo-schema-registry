@@ -1,0 +1,35 @@
+{
+   "$schema":"#",
+   "description":"Schema for a user context",
+   "self":{
+      "vendor":"com.user_context",
+      "name":"user_context",
+      "format":"jsonschema",
+      "version":"1-0-0"
+   },
+   "type":"object",
+   "properties":{
+      "user_id":{
+         "type":"string",
+         "maxlength":60
+      },
+      "first_name":{
+         "type":"string",
+         "maxlength":60
+      },
+      "last_name":{
+         "type":"string",
+         "maxlength":60
+      },
+      "username":{
+         "type":"string",
+         "maxlength":60
+      },
+      "email":{
+         "type":"string",
+         "maxlength":60
+      }
+   },
+   "minProperties":1,
+   "additionalProperties":false
+}

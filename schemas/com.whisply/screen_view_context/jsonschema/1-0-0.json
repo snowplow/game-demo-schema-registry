@@ -1,0 +1,19 @@
+{
+   "$schema":"",
+   "description":"Schema for a screen view",
+   "self":{
+      "vendor":"com.whisply",
+      "name":"screen_context",
+      "format":"jsonschema",
+      "version":"1-0-0"
+   },
+   "type":"object",
+   "properties":{
+      "screen_name":{
+         "type":"string",
+         "maxlength":60
+      }
+   },
+   "minProperties":1,
+   "additionalProperties":false
+}

@@ -1,0 +1,19 @@
+{
+   "$schema":"#",
+   "description":"Schema for a share event",
+   "self":{
+      "vendor":"com.whisply",
+      "name":"share",
+      "format":"jsonschema",
+      "version":"1-0-0"
+   },
+   "type":"object",
+   "properties":{
+      "share_type":{
+         "type":"string",
+         "maxlength":60
+      }
+   },
+   "minProperties":1,
+   "additionalProperties":false
+}
