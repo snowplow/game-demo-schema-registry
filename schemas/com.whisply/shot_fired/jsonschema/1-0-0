@@ -1,0 +1,17 @@
+{
+   "$schema":"http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+   "description":"Schema for a shot fired event",
+   "self":{
+      "vendor":"com.whisply",
+      "name":"shot_fired",
+      "format":"jsonschema",
+      "version":"1-0-0"
+   },
+   "type":"object",
+   "properties":{
+      "ghost_killed":{
+         "type":"boolean"
+      }
+   },
+   "additionalProperties":false
+}
